@@ -58,8 +58,11 @@ nav li:hover { /* Hace que al pasar el cursor sobre una parte del menú, esta pa
 
 .Cute{
 
+    width: 300px;
     position: relative;
-    left: 500px
+    left: 40%;
+    top: 60px;
 
 }
+
 
