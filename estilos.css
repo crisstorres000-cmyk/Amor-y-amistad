@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+background-color: rgb(255, 209, 241);
+
+}
+
+p{
+
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+
+}
+
+h1 {
+
+    font-family: Type Machine, monospace;
+    text-align: center;
+    background-color: rgb(255, 120, 203);
+    color:black;
+    padding: 20px;
+
+}
+
+nav ul {
+
+    background-color: rgb(255, 86, 122); /* Da un color de fondo gris claro a la sección de los menús */
+    width: 100%; /* Da un tamaño del 100% a la parte de los menús para que ocupe todo el largo de la pantalla */
+    list-style: none; /* Le quita las viñetas de lista a los menús */
+    text-align: center; /* Alinea el texto de los menús al centro */
+
+}
+
+nav li { 
+
+    display: inline-flex; /* alínea el texto de los menús uno junto al otro */
+
+}
+
+nav a { /* Modifica el estilo del texto de los menús */
+
+    text-decoration: none; /* Quita la raya azul de debajo de los enlaces de los menús */
+    color:black; /* Cambia el color del texto de los menús a azul */
+    padding: 10px; /* Da una separación de 10px entre menú y menú */
+    width: 150px; /* Da un tamaño de 150px al texto del menú */
+
+}
+
+nav li:hover { /* Hace que al pasar el cursor sobre una parte del menú, esta parte se resalte en un color diferente */
+
+    background-color: rgb(255, 196, 204); /*cambia el color a amarillo pastel*/
+}
